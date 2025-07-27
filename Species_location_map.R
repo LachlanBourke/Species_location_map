@@ -108,7 +108,7 @@ ECU_map <- tm_shape(ECU.elevation, bbox=bbox_ec) +
              title.shape = "Venom",
              shapes = c(21,22,23,24,25),
              col = "red") +
-  tm_layout(text.fontfamily = "Times New Roman",legend.position = c(0.62,0.7),
+  tm_layout(text.fontfamily = "Times New Roman",legend.position = c(0.56,0.7),
             legend.title.size = 1.5, legend.text.size = 0.8, 
             legend.text.fontface = "italic",legend.frame = F,
             frame = F) #Frame T is useful to orientate things
